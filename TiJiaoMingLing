@@ -1,0 +1,15 @@
+git remote add origin git@github.com:LinYou447/Biwo.git   关联一个远程仓库
+git push -u origin master   把本地仓库的内容推送到远程仓库
+git reset --hard HEAD^ 把本地版本更新到最新版本
+git reset --hard <版本号>
+git log  显示git操作日志
+git log --pretty=oneline  git日志一行显示可以看到版本号
+git diff <文件名> 比较仓库最新版本跟现在版本文件的不同
+git diff <文件名1> <文件名二> 比较两个文件的不同
+git checkout -- <文件名> 撤销工作区对此文件做的修改
+git reset HEAD <文件名> 从暂存区把该文件撤销添加
+git statud 查看git状态信息
+git reflog 查看命令历史
+git add <文件名> 把工作区修改的文件添加到暂存区
+git commit -m "提交说明"  把暂存区的内容提交到版本库分支中
+
